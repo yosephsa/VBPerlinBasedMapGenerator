@@ -47,7 +47,7 @@
         For y As Integer = 0 To CInt(txtTilesY.Text) - 1
             For x As Integer = 0 To CInt(txtTilesX.Text) - 1
                 Dim color = New Color()
-                color = Color.FromArgb(Math.Min(255, Math.Abs(matrix(y, x) * 255 / 1000)), Math.Min(255, Math.Abs(matrix(y, x) * 255 / 1000)), Math.Min(255, Math.Abs(matrix(y, x) * 255 / 1000)))
+                color = Color.FromArgb(matrix(y, x), matrix(y, x), matrix(y, x))
                 bitMap.SetPixel(x, y, color)
             Next
         Next

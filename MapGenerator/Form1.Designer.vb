@@ -22,21 +22,6 @@ Partial Class FormMapGenerator
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txtMapValues = New System.Windows.Forms.TextBox()
-        Me.lblCode0 = New System.Windows.Forms.Label()
-        Me.lblCode1 = New System.Windows.Forms.Label()
-        Me.lblCode3 = New System.Windows.Forms.Label()
-        Me.lblCode2 = New System.Windows.Forms.Label()
-        Me.lblCode7 = New System.Windows.Forms.Label()
-        Me.lblCode6 = New System.Windows.Forms.Label()
-        Me.lblCode5 = New System.Windows.Forms.Label()
-        Me.lblCode4 = New System.Windows.Forms.Label()
-        Me.lblCodeC = New System.Windows.Forms.Label()
-        Me.lblCodeB = New System.Windows.Forms.Label()
-        Me.lblCodeA = New System.Windows.Forms.Label()
-        Me.lblCode9 = New System.Windows.Forms.Label()
-        Me.lblCode8 = New System.Windows.Forms.Label()
-        Me.lblCodesTitle = New System.Windows.Forms.Label()
         Me.btnRandomize = New System.Windows.Forms.Button()
         Me.lblTilesX = New System.Windows.Forms.Label()
         Me.lblTilesY = New System.Windows.Forms.Label()
@@ -64,158 +49,23 @@ Partial Class FormMapGenerator
         Me.lblSeed = New System.Windows.Forms.Label()
         Me.txtSeed = New System.Windows.Forms.TextBox()
         Me.pbxMap = New System.Windows.Forms.PictureBox()
+        Me.txtMapValues = New System.Windows.Forms.RichTextBox()
+        Me.lblCode0 = New System.Windows.Forms.Label()
+        Me.lblCode1 = New System.Windows.Forms.Label()
+        Me.lblCode2 = New System.Windows.Forms.Label()
+        Me.lblCode3 = New System.Windows.Forms.Label()
+        Me.lblCode4 = New System.Windows.Forms.Label()
+        Me.lblCode5 = New System.Windows.Forms.Label()
+        Me.lblCode6 = New System.Windows.Forms.Label()
+        Me.lblCode7 = New System.Windows.Forms.Label()
+        Me.lblCode8 = New System.Windows.Forms.Label()
+        Me.lblCode9 = New System.Windows.Forms.Label()
+        Me.lblCodeA = New System.Windows.Forms.Label()
+        Me.lblCodeB = New System.Windows.Forms.Label()
+        Me.lblCodeC = New System.Windows.Forms.Label()
+        Me.lblCodesTitle = New System.Windows.Forms.Label()
         CType(Me.pbxMap, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'txtMapValues
-        '
-        Me.txtMapValues.AccessibleName = ""
-        Me.txtMapValues.BackColor = System.Drawing.SystemColors.Info
-        Me.txtMapValues.Location = New System.Drawing.Point(170, 12)
-        Me.txtMapValues.Multiline = True
-        Me.txtMapValues.Name = "txtMapValues"
-        Me.txtMapValues.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.txtMapValues.Size = New System.Drawing.Size(610, 289)
-        Me.txtMapValues.TabIndex = 0
-        '
-        'lblCode0
-        '
-        Me.lblCode0.AccessibleName = ""
-        Me.lblCode0.AutoSize = True
-        Me.lblCode0.Location = New System.Drawing.Point(34, 46)
-        Me.lblCode0.Name = "lblCode0"
-        Me.lblCode0.Size = New System.Drawing.Size(70, 20)
-        Me.lblCode0.TabIndex = 2
-        Me.lblCode0.Text = "0 = Lake"
-        '
-        'lblCode1
-        '
-        Me.lblCode1.AccessibleName = ""
-        Me.lblCode1.AutoSize = True
-        Me.lblCode1.Location = New System.Drawing.Point(34, 72)
-        Me.lblCode1.Name = "lblCode1"
-        Me.lblCode1.Size = New System.Drawing.Size(82, 20)
-        Me.lblCode1.TabIndex = 3
-        Me.lblCode1.Text = "1 = Ocean"
-        '
-        'lblCode3
-        '
-        Me.lblCode3.AccessibleName = ""
-        Me.lblCode3.AutoSize = True
-        Me.lblCode3.Location = New System.Drawing.Point(34, 124)
-        Me.lblCode3.Name = "lblCode3"
-        Me.lblCode3.Size = New System.Drawing.Size(57, 20)
-        Me.lblCode3.TabIndex = 5
-        Me.lblCode3.Text = "3 = Ice"
-        '
-        'lblCode2
-        '
-        Me.lblCode2.AccessibleName = ""
-        Me.lblCode2.AutoSize = True
-        Me.lblCode2.Location = New System.Drawing.Point(34, 98)
-        Me.lblCode2.Name = "lblCode2"
-        Me.lblCode2.Size = New System.Drawing.Size(71, 20)
-        Me.lblCode2.TabIndex = 4
-        Me.lblCode2.Text = "2 = River"
-        '
-        'lblCode7
-        '
-        Me.lblCode7.AccessibleName = ""
-        Me.lblCode7.AutoSize = True
-        Me.lblCode7.Location = New System.Drawing.Point(34, 230)
-        Me.lblCode7.Name = "lblCode7"
-        Me.lblCode7.Size = New System.Drawing.Size(83, 20)
-        Me.lblCode7.TabIndex = 9
-        Me.lblCode7.Text = "7 = Desert"
-        '
-        'lblCode6
-        '
-        Me.lblCode6.AccessibleName = ""
-        Me.lblCode6.AutoSize = True
-        Me.lblCode6.Location = New System.Drawing.Point(34, 204)
-        Me.lblCode6.Name = "lblCode6"
-        Me.lblCode6.Size = New System.Drawing.Size(75, 20)
-        Me.lblCode6.TabIndex = 8
-        Me.lblCode6.Text = "6 = Snow"
-        '
-        'lblCode5
-        '
-        Me.lblCode5.AccessibleName = ""
-        Me.lblCode5.AutoSize = True
-        Me.lblCode5.Location = New System.Drawing.Point(34, 178)
-        Me.lblCode5.Name = "lblCode5"
-        Me.lblCode5.Size = New System.Drawing.Size(78, 20)
-        Me.lblCode5.TabIndex = 7
-        Me.lblCode5.Text = "5 = Grass"
-        '
-        'lblCode4
-        '
-        Me.lblCode4.AccessibleName = ""
-        Me.lblCode4.AutoSize = True
-        Me.lblCode4.Location = New System.Drawing.Point(34, 150)
-        Me.lblCode4.Name = "lblCode4"
-        Me.lblCode4.Size = New System.Drawing.Size(88, 20)
-        Me.lblCode4.TabIndex = 6
-        Me.lblCode4.Text = "4 = Swamp"
-        '
-        'lblCodeC
-        '
-        Me.lblCodeC.AccessibleName = ""
-        Me.lblCodeC.AutoSize = True
-        Me.lblCodeC.Location = New System.Drawing.Point(34, 360)
-        Me.lblCodeC.Name = "lblCodeC"
-        Me.lblCodeC.Size = New System.Drawing.Size(126, 20)
-        Me.lblCodeC.TabIndex = 14
-        Me.lblCodeC.Text = "C = Snow Mount"
-        '
-        'lblCodeB
-        '
-        Me.lblCodeB.AccessibleName = ""
-        Me.lblCodeB.AutoSize = True
-        Me.lblCodeB.Location = New System.Drawing.Point(34, 334)
-        Me.lblCodeB.Name = "lblCodeB"
-        Me.lblCodeB.Size = New System.Drawing.Size(103, 20)
-        Me.lblCodeB.TabIndex = 13
-        Me.lblCodeB.Text = "B = Mountain"
-        '
-        'lblCodeA
-        '
-        Me.lblCodeA.AccessibleName = ""
-        Me.lblCodeA.AutoSize = True
-        Me.lblCodeA.Location = New System.Drawing.Point(34, 308)
-        Me.lblCodeA.Name = "lblCodeA"
-        Me.lblCodeA.Size = New System.Drawing.Size(84, 20)
-        Me.lblCodeA.TabIndex = 12
-        Me.lblCodeA.Text = "A = Jungle"
-        '
-        'lblCode9
-        '
-        Me.lblCode9.AccessibleName = ""
-        Me.lblCode9.AutoSize = True
-        Me.lblCode9.Location = New System.Drawing.Point(34, 282)
-        Me.lblCode9.Name = "lblCode9"
-        Me.lblCode9.Size = New System.Drawing.Size(125, 20)
-        Me.lblCode9.TabIndex = 11
-        Me.lblCode9.Text = "9 = Snow Forest"
-        '
-        'lblCode8
-        '
-        Me.lblCode8.AccessibleName = ""
-        Me.lblCode8.AutoSize = True
-        Me.lblCode8.Location = New System.Drawing.Point(34, 256)
-        Me.lblCode8.Name = "lblCode8"
-        Me.lblCode8.Size = New System.Drawing.Size(81, 20)
-        Me.lblCode8.TabIndex = 10
-        Me.lblCode8.Text = "8 = Forest"
-        '
-        'lblCodesTitle
-        '
-        Me.lblCodesTitle.AutoSize = True
-        Me.lblCodesTitle.Location = New System.Drawing.Point(10, 12)
-        Me.lblCodesTitle.Name = "lblCodesTitle"
-        Me.lblCodesTitle.Size = New System.Drawing.Size(154, 20)
-        Me.lblCodesTitle.TabIndex = 15
-        Me.lblCodesTitle.Text = "Terrain Codes (Hex):"
         '
         'btnRandomize
         '
@@ -442,17 +292,165 @@ Partial Class FormMapGenerator
         '
         'pbxMap
         '
-        Me.pbxMap.Location = New System.Drawing.Point(786, 12)
+        Me.pbxMap.Location = New System.Drawing.Point(870, 12)
         Me.pbxMap.Name = "pbxMap"
-        Me.pbxMap.Size = New System.Drawing.Size(426, 288)
+        Me.pbxMap.Size = New System.Drawing.Size(288, 288)
         Me.pbxMap.TabIndex = 48
         Me.pbxMap.TabStop = False
+        '
+        'txtMapValues
+        '
+        Me.txtMapValues.Location = New System.Drawing.Point(183, 12)
+        Me.txtMapValues.Name = "txtMapValues"
+        Me.txtMapValues.Size = New System.Drawing.Size(593, 288)
+        Me.txtMapValues.TabIndex = 49
+        Me.txtMapValues.Text = ""
+        '
+        'lblCode0
+        '
+        Me.lblCode0.AccessibleName = ""
+        Me.lblCode0.AutoSize = True
+        Me.lblCode0.Location = New System.Drawing.Point(34, 46)
+        Me.lblCode0.Name = "lblCode0"
+        Me.lblCode0.Size = New System.Drawing.Size(70, 20)
+        Me.lblCode0.TabIndex = 2
+        Me.lblCode0.Text = "0 = Lake"
+        '
+        'lblCode1
+        '
+        Me.lblCode1.AccessibleName = ""
+        Me.lblCode1.AutoSize = True
+        Me.lblCode1.Location = New System.Drawing.Point(34, 72)
+        Me.lblCode1.Name = "lblCode1"
+        Me.lblCode1.Size = New System.Drawing.Size(82, 20)
+        Me.lblCode1.TabIndex = 3
+        Me.lblCode1.Text = "1 = Ocean"
+        '
+        'lblCode2
+        '
+        Me.lblCode2.AccessibleName = ""
+        Me.lblCode2.AutoSize = True
+        Me.lblCode2.Location = New System.Drawing.Point(34, 98)
+        Me.lblCode2.Name = "lblCode2"
+        Me.lblCode2.Size = New System.Drawing.Size(71, 20)
+        Me.lblCode2.TabIndex = 4
+        Me.lblCode2.Text = "2 = River"
+        '
+        'lblCode3
+        '
+        Me.lblCode3.AccessibleName = ""
+        Me.lblCode3.AutoSize = True
+        Me.lblCode3.Location = New System.Drawing.Point(34, 124)
+        Me.lblCode3.Name = "lblCode3"
+        Me.lblCode3.Size = New System.Drawing.Size(57, 20)
+        Me.lblCode3.TabIndex = 5
+        Me.lblCode3.Text = "3 = Ice"
+        '
+        'lblCode4
+        '
+        Me.lblCode4.AccessibleName = ""
+        Me.lblCode4.AutoSize = True
+        Me.lblCode4.Location = New System.Drawing.Point(34, 150)
+        Me.lblCode4.Name = "lblCode4"
+        Me.lblCode4.Size = New System.Drawing.Size(88, 20)
+        Me.lblCode4.TabIndex = 6
+        Me.lblCode4.Text = "4 = Swamp"
+        '
+        'lblCode5
+        '
+        Me.lblCode5.AccessibleName = ""
+        Me.lblCode5.AutoSize = True
+        Me.lblCode5.Location = New System.Drawing.Point(34, 178)
+        Me.lblCode5.Name = "lblCode5"
+        Me.lblCode5.Size = New System.Drawing.Size(78, 20)
+        Me.lblCode5.TabIndex = 7
+        Me.lblCode5.Text = "5 = Grass"
+        '
+        'lblCode6
+        '
+        Me.lblCode6.AccessibleName = ""
+        Me.lblCode6.AutoSize = True
+        Me.lblCode6.Location = New System.Drawing.Point(34, 204)
+        Me.lblCode6.Name = "lblCode6"
+        Me.lblCode6.Size = New System.Drawing.Size(75, 20)
+        Me.lblCode6.TabIndex = 8
+        Me.lblCode6.Text = "6 = Snow"
+        '
+        'lblCode7
+        '
+        Me.lblCode7.AccessibleName = ""
+        Me.lblCode7.AutoSize = True
+        Me.lblCode7.Location = New System.Drawing.Point(34, 230)
+        Me.lblCode7.Name = "lblCode7"
+        Me.lblCode7.Size = New System.Drawing.Size(83, 20)
+        Me.lblCode7.TabIndex = 9
+        Me.lblCode7.Text = "7 = Desert"
+        '
+        'lblCode8
+        '
+        Me.lblCode8.AccessibleName = ""
+        Me.lblCode8.AutoSize = True
+        Me.lblCode8.Location = New System.Drawing.Point(34, 256)
+        Me.lblCode8.Name = "lblCode8"
+        Me.lblCode8.Size = New System.Drawing.Size(81, 20)
+        Me.lblCode8.TabIndex = 10
+        Me.lblCode8.Text = "8 = Forest"
+        '
+        'lblCode9
+        '
+        Me.lblCode9.AccessibleName = ""
+        Me.lblCode9.AutoSize = True
+        Me.lblCode9.Location = New System.Drawing.Point(34, 282)
+        Me.lblCode9.Name = "lblCode9"
+        Me.lblCode9.Size = New System.Drawing.Size(125, 20)
+        Me.lblCode9.TabIndex = 11
+        Me.lblCode9.Text = "9 = Snow Forest"
+        '
+        'lblCodeA
+        '
+        Me.lblCodeA.AccessibleName = ""
+        Me.lblCodeA.AutoSize = True
+        Me.lblCodeA.Location = New System.Drawing.Point(34, 308)
+        Me.lblCodeA.Name = "lblCodeA"
+        Me.lblCodeA.Size = New System.Drawing.Size(84, 20)
+        Me.lblCodeA.TabIndex = 12
+        Me.lblCodeA.Text = "A = Jungle"
+        '
+        'lblCodeB
+        '
+        Me.lblCodeB.AccessibleName = ""
+        Me.lblCodeB.AutoSize = True
+        Me.lblCodeB.Location = New System.Drawing.Point(34, 334)
+        Me.lblCodeB.Name = "lblCodeB"
+        Me.lblCodeB.Size = New System.Drawing.Size(103, 20)
+        Me.lblCodeB.TabIndex = 13
+        Me.lblCodeB.Text = "B = Mountain"
+        '
+        'lblCodeC
+        '
+        Me.lblCodeC.AccessibleName = ""
+        Me.lblCodeC.AutoSize = True
+        Me.lblCodeC.Location = New System.Drawing.Point(34, 360)
+        Me.lblCodeC.Name = "lblCodeC"
+        Me.lblCodeC.Size = New System.Drawing.Size(126, 20)
+        Me.lblCodeC.TabIndex = 14
+        Me.lblCodeC.Text = "C = Snow Mount"
+        '
+        'lblCodesTitle
+        '
+        Me.lblCodesTitle.AutoSize = True
+        Me.lblCodesTitle.Location = New System.Drawing.Point(10, 12)
+        Me.lblCodesTitle.Name = "lblCodesTitle"
+        Me.lblCodesTitle.Size = New System.Drawing.Size(154, 20)
+        Me.lblCodesTitle.TabIndex = 15
+        Me.lblCodesTitle.Text = "Terrain Codes (Hex):"
         '
         'FormMapGenerator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1225, 506)
+        Me.Controls.Add(Me.txtMapValues)
         Me.Controls.Add(Me.pbxMap)
         Me.Controls.Add(Me.txtSeed)
         Me.Controls.Add(Me.lblSeed)
@@ -494,7 +492,6 @@ Partial Class FormMapGenerator
         Me.Controls.Add(Me.lblCode2)
         Me.Controls.Add(Me.lblCode1)
         Me.Controls.Add(Me.lblCode0)
-        Me.Controls.Add(Me.txtMapValues)
         Me.Name = "FormMapGenerator"
         Me.Text = "Map Generator"
         CType(Me.pbxMap, System.ComponentModel.ISupportInitialize).EndInit()
@@ -502,22 +499,6 @@ Partial Class FormMapGenerator
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents txtMapValues As TextBox
-    Friend WithEvents lblCode0 As Label
-    Friend WithEvents lblCode1 As Label
-    Friend WithEvents lblCode3 As Label
-    Friend WithEvents lblCode2 As Label
-    Friend WithEvents lblCode7 As Label
-    Friend WithEvents lblCode6 As Label
-    Friend WithEvents lblCode5 As Label
-    Friend WithEvents lblCode4 As Label
-    Friend WithEvents lblCodeC As Label
-    Friend WithEvents lblCodeB As Label
-    Friend WithEvents lblCodeA As Label
-    Friend WithEvents lblCode9 As Label
-    Friend WithEvents lblCode8 As Label
-    Friend WithEvents lblCodesTitle As Label
     Friend WithEvents btnRandomize As Button
     Friend WithEvents lblTilesX As Label
     Friend WithEvents lblTilesY As Label
@@ -545,4 +526,19 @@ Partial Class FormMapGenerator
     Friend WithEvents lblSeed As Label
     Friend WithEvents txtSeed As TextBox
     Friend WithEvents pbxMap As PictureBox
+    Friend WithEvents txtMapValues As RichTextBox
+    Friend WithEvents lblCode0 As Label
+    Friend WithEvents lblCode1 As Label
+    Friend WithEvents lblCode2 As Label
+    Friend WithEvents lblCode3 As Label
+    Friend WithEvents lblCode4 As Label
+    Friend WithEvents lblCode5 As Label
+    Friend WithEvents lblCode6 As Label
+    Friend WithEvents lblCode7 As Label
+    Friend WithEvents lblCode8 As Label
+    Friend WithEvents lblCode9 As Label
+    Friend WithEvents lblCodeA As Label
+    Friend WithEvents lblCodeB As Label
+    Friend WithEvents lblCodeC As Label
+    Friend WithEvents lblCodesTitle As Label
 End Class

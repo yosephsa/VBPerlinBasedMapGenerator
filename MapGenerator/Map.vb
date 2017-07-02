@@ -35,7 +35,7 @@
 
     Public Sub GeneratePerlinMatrix()
         Dim test = New Generator()
-        MapMatrix = test.GenerateModifiedPerlinMatrix(GetSeed(), GetWidth(), GetHeight(), 4, 4, 2, 4, 0, 1000)
+        MapMatrix = test.GenerateModifiedPerlinMatrix(GetSeed(), GetWidth(), GetHeight(), 4, 4, 2, 4, 0, 255)
     End Sub
 
     '---SETTER METHODS---'

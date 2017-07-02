@@ -9,3 +9,14 @@ c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerato
 c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\obj\Debug\MapGenerator.exe
 c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\obj\Debug\MapGenerator.xml
 c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\obj\Debug\MapGenerator.pdb
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\bin\Debug\MapGenerator.exe.config
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\bin\Debug\MapGenerator.exe
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\bin\Debug\MapGenerator.pdb
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\bin\Debug\MapGenerator.xml
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\obj\Debug\MapGenerator.vbprojResolveAssemblyReference.cache
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\obj\Debug\MapGenerator.FormMapGenerator.resources
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\obj\Debug\MapGenerator.Resources.resources
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\obj\Debug\MapGenerator.vbproj.GenerateResource.Cache
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\obj\Debug\MapGenerator.exe
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\obj\Debug\MapGenerator.xml
+C:\Users\yosephsa\Documents\GitHub\VBPerlinBasedMapGenerator\MapGenerator\obj\Debug\MapGenerator.pdb
