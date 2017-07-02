@@ -1,0 +1,25 @@
+Turrain Numbers (Hex):
+
+	0 = Lake
+	1 = Ocean
+	2 = River
+	3 = Ice
+
+	4 = Swamp
+
+	5 = Grass
+	6 = Snow
+	7 = Desert
+
+	8 = Forest
+	9 = Snow Forest
+	A = Jungle
+
+	B = Mountain
+	C = Snow Mount
+	
+Zone Numbers (Hex):
+	
+	0 = Other
+	1 = Tropic
+	2 = Arctic

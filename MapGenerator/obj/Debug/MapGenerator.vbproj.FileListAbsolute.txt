@@ -1,0 +1,11 @@
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\bin\Debug\MapGenerator.exe.config
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\bin\Debug\MapGenerator.exe
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\bin\Debug\MapGenerator.pdb
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\bin\Debug\MapGenerator.xml
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\obj\Debug\MapGenerator.vbprojResolveAssemblyReference.cache
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\obj\Debug\MapGenerator.FormMapGenerator.resources
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\obj\Debug\MapGenerator.Resources.resources
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\obj\Debug\MapGenerator.vbproj.GenerateResource.Cache
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\obj\Debug\MapGenerator.exe
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\obj\Debug\MapGenerator.xml
+c:\users\yosephsa\documents\visual studio 2017\Projects\MapGenerator\MapGenerator\obj\Debug\MapGenerator.pdb
